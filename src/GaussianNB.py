@@ -152,7 +152,7 @@ if __name__ == "__main__":
 	#Weather Dataset
 	print("\nIris Dataset:")
 
-	df = pd.read_csv("Data/iris.csv")
+	df = pd.read_csv("../Data/iris.csv")
 	#print(df)
 
 	#Split fearures and target
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 	#Gender Classification Dataset
 	print("\nGender Dataset:")
 
-	df = pd.read_csv("Data/gender.csv")
+	df = pd.read_csv("../Data/gender.csv")
 	#print(df)
 
 	#Split fearures and target
